@@ -1,0 +1,79 @@
+<style>
+
+    .container{
+        width:100px;
+    }
+
+
+    .hr { 
+   
+    border-color: #3BB9FF;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    border-style: inset;
+    border-width: 1px;
+    } 
+ 
+
+    /*#footer{
+        background-color:#3BB9FF;
+        height:96px;
+        margin-top: 3%;
+        color:Black;
+        clear:both;
+        text-align:center;
+        padding:15px;
+    }*/
+
+
+    p.text{
+        text-align: left;
+        margin-left: 20%;
+    }
+
+    .button {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 2px 2px;
+    cursor: pointer;
+    width: 40%;
+    margin-left: 0.1em;
+    }
+
+    #footer {
+    height: 114px;
+    text-align:center;
+    padding:15px;
+    background: #3BB9FF; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#3BB9FF, #E8E8E8); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#3BB9FF, #E8E8E8); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#3BB9FF, #E8E8E8); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#3BB9FF, #E8E8E8); /* Standard syntax (must be last) */
+    }
+
+    .hr, #footer{
+        margin-left:0%;
+        margin-right:0%;
+
+        border: 0px solid black;
+    }
+
+
+    @viewpoint{
+        zoom: 1.0;
+        width: extend-to-zoom;
+    }
+
+    @-ms-viewpoint{
+        zoom: 1.0;
+        width: extend-to-zoom;
+    }
+
+
+</style>
