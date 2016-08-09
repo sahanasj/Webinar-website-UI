@@ -15,7 +15,7 @@ function AlertUser(){
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
     $mail->Username = 'onecloudc@gmail.com';
-    $mail->Password = 'onecloud@123';
+    $mail->Password = 'xxxxxxxx';
     $mail->SMTPSecure = 'tls';
     $mail->Port = 25;
 
@@ -48,7 +48,7 @@ function AlertAdmin(){
     $email->Host = 'smtp.gmail.com';
     $email->SMTPAuth = true;
     $email->Username = 'onecloudc@gmail.com';
-    $email->Password = 'onecloud@123';
+    $email->Password = 'xxxxxxxx';
     $email->SMTPSecure = 'tls';
     $email->Port = 25;
 
